@@ -1,13 +1,12 @@
 //
 //  Lua.h
-//  musegame
 //
 //  Created by Luwei on 15/5/19.
-//  Copyright (c) 2015 MUSE-GAME. All rights reserved.
+//  Copyright (c) 2015 Luwei. All rights reserved.
 //
 
-#ifndef __MUSEGAME__Lua__
-#define __MUSEGAME__Lua__
+#ifndef __LUWEI_SCRIPT_LUA__
+#define __LUWEI_SCRIPT_LUA__
 
 #include <stdio.h>
 #include <vector>
@@ -19,7 +18,7 @@ extern "C" {
 #include "lauxlib.h"
 }
 
-namespace MUSE {
+namespace Script {
 
 namespace Lua {
     using namespace std;
@@ -425,6 +424,6 @@ namespace Lua {
     
 } // Namespace-Lua
     
-} // Namespace-Muse
+} // Namespace
 
 #endif
